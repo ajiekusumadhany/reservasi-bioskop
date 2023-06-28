@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.movie-container select {
+  background-color: hsla(0, 9%, 89%, 0.411);
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.jumlahseatdanharga {
+  margin-top: 20px;
+  border: 1px solid rgb(100, 100, 100);
+  padding: 10px;
+  text-align: justify;
+  width: 300px;
+}
+
+p.text span {
+  color: rgb(66, 175, 248);
+}
+
+.container {
+  perspective: 1000px;
+  margin-bottom: 20px;
+}
+
+.ket-warna {
+  list-style-type: none;
+  display: flex;
+}
+
+.ket-warna li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.seat-warna {
+  background-color: #ccccd8;
+  height: 26px;
+  width: 32px;
+  margin: 3px;
+  font-size: 20px;
+}
+
+.seat-warna.selected {
+  background-color: rgb(139, 185, 139);
+}
+
+.seat-warna.sold {
+  background-color: rgba(79, 77, 255, 0.925);
+}
+
+.row {
+  display: flex;
+}
+
+.namabaris {
+  height: 26px;
+  width: 32px;
+  margin: 3px;
+  font-size: 20px;
+}
+
+.seat {
+  background-color: #ccccd8;
+  width: 45px;
+  margin: 2px;
+  font-size: 20px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: rgb(139, 185, 139);
+  cursor: pointer;
+}
+
+.seat.sold {
+  background-color: rgba(79, 77, 255, 0.925);
+  cursor: default;
+}
+
+.button {
+  display: flex;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.pesan,
+.batal {
+  background-color: rgb(31, 182, 89);
+  color: white;
+  font-size: medium;
+  vertical-align: middle;
+  text-align: center;
+  height: 20px;
+  padding: 10px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.pesan:hover,
+.batal:hover {
+  background-color: rgb(101, 31, 231);
+}
