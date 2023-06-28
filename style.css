@@ -5,6 +5,9 @@ body {
   justify-content: center;
   height: 100vh;
 }
+h2 {
+  text-align: center;
+}
 
 .movie-container select {
   background-color: hsla(0, 9%, 89%, 0.411);
